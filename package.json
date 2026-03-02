@@ -1,0 +1,17 @@
+{
+  "name": "telegram-flight-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot to extract flight data from screenshots using Claude AI",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
