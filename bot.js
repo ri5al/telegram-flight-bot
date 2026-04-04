@@ -1,6 +1,9 @@
 const TelegramBot = require("node-telegram-bot-api");
 const axios = require("axios");
 const path = require("path");
+const keepAlive = require("./keepAlive");
+
+keepAlive();
 
 // ── Config ────────────────────────────────────────────────────────────────────
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
